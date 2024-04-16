@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>My Form Homework</title>
+</head>
+<body style="background-color:rgb(228, 168, 208);">
+    <header> HTML Forms</header>
+    <main>
+        <h1>Implementing Forms</h1>
+
+    <form action="/sumbit" method="POST">
+        <label for="email">Email (required):</label>
+        <input type="email" name="email" autocomplete="on" placeholder="1234abc@gmail.com">
+        <div role="alert" aria-live="assertive"></div>
+        <!-- adds the email input -->
+
+        <label for="quanity">Quanity</label>
+        <input type="number" name="quanity" min="5" max="15" step="1" autocomplete="on">
+        <div role="alert" aria-live="assertive"></div>
+        <!-- adds quanity input with limits-->
+
+        <label for="datenight">Datenight</label>
+        <input type="date" name="datenight" placeholder="09/09/2029">
+        <div role="alert" aria-live="assertive"></div>
+        <!-- added date format -->
+
+        <label for="rating">Rating (between 0 and 10):</label>
+        <input type="range" name="rating" min="0" max="10">
+        <div role="alert" aria-live="assertive"></div>
+
+        <button type="sumbit">Submit</button>
+        <!-- added submit button -->
+    </form>
+    <br>
+    <hr>
+    <br>
+
+
+
+    <h1> What is your favorite programming language??</h1>
+    <form action="/sumbit" method="POST">
+    <label for="languages">Select your favorite programming language:</label>
+    <select name="languages" id="languages">
+        <option value="CSS">CSS</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <div role="alert" aria-live="assertive"></div>
+    </select>
+    <br>
+    <hr>
+    <br>
+
+
+    
+    <h1> What is your level of expertise??</h1>
+    <form action="/sumbit" method="POST">
+    
+        </select>
+        <label for="level">Beginner</label>
+        <input type="radio" name="level" value="Beginner">
+        <label for="level">Intermediate</label>
+        <input type="radio" name="level" value="Intermediate">
+        <label for="level">Advanced</label>
+        <input type="radio" name="level" value="Advanced">
+        <div role="alert" aria-live="assertive"></div>
+
+        <br>
+        <hr>
+        <br>
+        <h1>What is your favorite development platforms?</h1>
+        <label for="web">Web</label>
+        <input type="checkbox" name="web" value="yes">
+        <label for="mobile">Mobile</label>
+        <input type="checkbox" name="mobile" value="yes">
+        <label for="desktop">Desktop</label>
+        <input type="checkbox" name="desktop" value="yes">
+        <div role="alert" aria-live="assertive"></div>
+
+       
+
+
+
+
+    </form>
+
+    
+    </form>
+    <br>
+    <hr>
+
+
+
+
+
+    </main>
+    
+</body>
+</html>
